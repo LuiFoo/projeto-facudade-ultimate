@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Krona+One&family=Montserrat:ital,wght@0,700;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jomolhari&family=Krona+One&family=Montserrat:ital,wght@0,700;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('./src/style/calcsono.css');
+
+:root {
+    --cor-cabecape: #13203f;
+    --cor-clara-fontes: #D0D0D0;
+    --cor-textdestaque: #12FFF1;
+    --cor-backprinc: #111827;
+    --cor-backsecundaria: #1D283A;
+    --cor-botoesfundo: #082F49;
+    --cor-botoes: #124c6c;
+    --cor-textdestcadoequipe: #666666;
+
+    --fonte-primaria: "Inter", sans-serif;
+    --fonte-secundaria: "Montserrat", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background-color: var(--cor-cabecape);
+    height: 4.375rem;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho__links {
+    display: flex;
+    gap: 2.562rem
+}
+
+.cabecalho__links__texto {
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--cor-clara-fontes);
+    text-decoration: none;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+}
+
+.corpo__principais {
+    background-color: var(--cor-backprinc);
+    display: flex;
+    flex-direction: column;
+    gap: 12.5rem;
+    align-items: center;
+}
+
+.corpo__principais__textoprincipal {
+    text-align: center;
+    margin: 6.25rem 0 0 0;
+}
+
+.corpo__principais__destaque {
+    color: var(--cor-textdestaque);
+}
+
+.corpo__principais__textoprincipal__titulo {
+    font-size: 6.25rem;
+    font-family: var(--fonte-secundaria);
+    font-weight: 700;
+    color: var(--cor-clara-fontes);
+}
+
+.corpo__principais__botoes {
+    display: flex;
+    background-color: var(--cor-botoesfundo);
+    border-radius: 1.87rem;
+    padding: 3.75rem;
+    gap: 4.43rem;
+}
+
+.corpo__principais__botoes__ancora {
+    display: flex;
+    align-items: center;
+    gap: 1.31rem;
+    background-color: var(--cor-botoes);
+    border-radius: 1.25rem;
+    width: 47.62rem;
+    height: 15.93rem;
+    padding: 0 1.25rem 0 1.25rem;
+}
+
+.corpo__principais__botoes__ancora__2 {
+    text-decoration: none;
+}
+
+.corpo__principais__botoes__ancora__div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    color: var(--cor-clara-fontes);
+}
+
+.corpo__principais__botoes__ancora__div__text {
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.corpo__principais__botoes__ancora__div__paragrafo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.corpo__principais__botoes__section {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.nossa-equipe {
+    background-color: var(--cor-backsecundaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nossa-equipe__imagem {
+    width: 100%;
+}
+
+.nossa-equipe__equipe {
+    display: flex;
+    flex-direction: column;
+<<<<<<< HEAD
+    margin: 160px;
+=======
+    margin: 3.12rem;
+>>>>>>> 1a430779fe8ac336524bc361e92cb5a782b88206
+}
+
+.nossa-equipe__equipe__titulo {
+    font-family: var(--fonte-secundaria);
+    font-weight: 700;
+    font-size: 6rem;
+    color: var(--cor-clara-fontes);
+}
+
+.nossa-equipe__parte-baixo1 {
+    margin: 10rem 0 0 0;
+    display: flex;
+    align-items: center;
+    gap: 1.87rem;
+}
+
+.nossa-equipe__parte-baixo__titulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: var(--cor-clara-fontes);
+}
+
+.nossa-equipe__parte-baixo__paragrafo {
+    font-family: var(--fonte-primaria);
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--cor-clara-fontes);
+}
+
+.nossa-equipe__parte-baixo1__imagem {
+    width: 11rem;
+    border-radius: 20%;
+}
+
+.nossa-equipe__parte-baixo2 {
+    margin: 6.25rem;
+    display: flex;
+    align-items: center;
+    gap: 8.12rem;
+}
+
+.nossa-equipe__parte-baixo2__in {
+    display: flex;
+    align-items: center;
+    gap: 1.87rem;
+}
+
+.nossa-equipe__parte-baixo2__imagem {
+    width: 8.68rem;
+}
+
+.nossa-equipe__parte-baixo3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8.12rem;
+}
+
+.nossa-equipe__frase {
+    margin: 10.62rem 0;
+}
+
+.nossa-equipe__frase__titulo {
+    font-family: "Jomolhari", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    color: var(--cor-textdestcadoequipe);
+}
+
+.rodape {
+    background-color: var(--cor-cabecape);
+    height: 4.37rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape__texto {
+    font-family: var(--fonte-primaria);
+    font-weight: 500;
+    font-size: 1.12rem;
+    color: var(--cor-clara-fontes);
+}
