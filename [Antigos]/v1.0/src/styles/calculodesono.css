@@ -1,0 +1,35 @@
+.calculodesono__body {
+    background-color: #A1A1A1;
+    box-sizing: border-box;
+}
+
+.calculodesono__main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 24.375rem;
+    gap: 20px;
+}
+
+.calculodesono__main__input {
+    width: 140px;
+    height: 25px;
+    text-align: center;
+}
+
+.calculodesono__main__botao {
+    width: 120px;
+    height: 25px;
+}
+
+.calculodesono__main__titulo {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.calculodesono__main__paragrafo{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
