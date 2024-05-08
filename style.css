@@ -5,13 +5,13 @@
 @import url('./src/style/calcsono.css');
 
 :root {
-    --cor-cabecape: #13203f;
+    --cor-cabecape: #064469; B;
     --cor-clara-fontes: #D0D0D0;
-    --cor-textdestaque: #12FFF1;
-    --cor-backprinc: #111827;
-    --cor-backsecundaria: #1D283A;
-    --cor-botoesfundo: #082F49;
-    --cor-botoes: #124c6c;
+    --cor-textdestaque: #5790AB; C;
+    --cor-backprinc: #072D44; A;
+    --cor-backsecundaria: #1D283A; D;
+    --cor-botoesfundo: #064469; E;
+    --cor-botoes: #072d44; F;
     --cor-textdestcadoequipe: #666666;
 
     --fonte-primaria: "Inter", sans-serif;
