@@ -5,11 +5,11 @@
 @import url('./src/style/calcsono.css');
 
 :root {
-    --cor-cabecape: #064469;
-    --cor-clara-fontes: #D0D7E1;
-    --cor-textdestaque: #5790AB;
-    --cor-backprinc: #072D44;
-    --cor-backsecundaria: #1D283A;
+    --cor-cabecape: #05080F;
+    --cor-clara-fontes: #FFFFFF;
+    --cor-textdestaque: #9CCDDB;
+    --cor-backprinc: #0F1318;
+    --cor-backsecundaria: #2F394A;
     --cor-botoesfundo: #064469;
     --cor-botoes: #072d44;
     --cor-textdestcadoequipe: #666666;
@@ -142,11 +142,7 @@ body {
 .nossa-equipe__equipe {
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
     margin: 160px;
-=======
-    margin: 3.12rem;
->>>>>>> 1a430779fe8ac336524bc361e92cb5a782b88206
 }
 
 .nossa-equipe__equipe__titulo {
