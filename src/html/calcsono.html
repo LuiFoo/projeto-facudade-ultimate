@@ -13,21 +13,43 @@
     <body>
 
         <header class="cabecalho">
-            <img src="./src/assets/logo.png" alt="">
+            <img src="../assets/logo.png" alt="asd">
             <div class="cabecalho__links">
-                <a class="cabecalho__links__texto                   " href="./index.html">Home</a>
+                <a class="cabecalho__links__texto" href="../../index.html">Home</a>
             </div>
         </header>
 
         <main>
-            <img src="../assets/asd.jpg" alt="">
+            <div class="main__calcsono">
+                <section class="main__calcsono__titulo">
+                    <h2 class="main__calcsono__titulo__pers">Você já escutou a elegante afirmação de que</h2>
+                    <h3 class="main__calcsono__titulo__pers"><strong class="corpo__principais__destaque">cada fase da vida</strong> requer uma quantidade</h3>
+                    <h4 class="main__calcsono__titulo__pers">específica de <strong class="corpo__principais__destaque">horas de sono?</strong></h4>
+                </section>
+                <div class="calcsono__main__div">
+                    <p class="calcsono__main__div__paragrafo">Por exemplo!</p>
+                    <p class="calcsono__main__div__paragrafo2">Digite sua idade!</p>
+                    <p class="calcsono__main__div__paragrafo3">Caso for menor de 1 ano colocar meses</p>
+                    <section>
+                        <input placeholder="Anos" class="botao" type="number" name="Idade" id="botaoanos">
+                        <input placeholder="Meses" class="botao" type="number" name="Idade" id="botaomeses">
+                    </section>
+                    <input class="botao" type="button" onclick="calcsono()" value="Avançar">
+                    <p id="text__horas" class="calcsono__main__div__paragrafo3"></p>
+                </div>
+                <div>
+                    <p>Idade</p>
+                </div>
+            </div>
         </main>
 
         <footer>
-
+            <div class="rodape">
+                <p class="rodape__texto">TecArt Solutions © 1500 a.C  — 2024 | Todos os direitos reservados</p>
+            </div>
         </footer>
 
-        <script src="app.js"></script>
+        <script src="../../app.js"></script>
 
     </body>
 

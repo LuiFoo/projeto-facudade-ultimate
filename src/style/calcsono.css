@@ -1,0 +1,56 @@
+.main__calcsono {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-backprinc);
+    padding: 130px 0 60px 0
+}
+
+.main__calcsono__titulo {
+    text-align: center;
+}
+
+.main__calcsono__titulo__pers {
+    color: var(--cor-clara-fontes);
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.calcsono__main__div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 40px 0;
+    gap: 30px;
+}
+
+.calcsono__main__div__paragrafo{
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-clara-fontes);
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.calcsono__main__div__paragrafo2{
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-clara-fontes);
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.calcsono__main__div__paragrafo3{
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-clara-fontes);
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.botao {
+    width: 150px;
+    height: 20px;
+    text-align: center;
+}
