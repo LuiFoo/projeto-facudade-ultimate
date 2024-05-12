@@ -54,3 +54,40 @@
     height: 20px;
     text-align: center;
 }
+
+.lista {
+    display: flex;
+    justify-content: center;
+}
+
+.lista__table {
+    text-align: center;
+    width: 400px;
+}
+
+.lista__table__tr {
+    background-color: var(--cor-botoesfundo);
+}
+
+.lista__table__tr2 {
+    background-color: var(--cor-botoes);
+}
+
+th, td {
+    border: solid 3px #6f85c7;
+    padding: 5px;
+}
+
+.lista__table__tr__titulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--cor-clara-fontes);
+}
+
+.lista__table__tr__paragrafo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor-clara-fontes);
+}
