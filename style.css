@@ -229,3 +229,20 @@ body {
     font-size: 1.12rem;
     color: var(--cor-clara-fontes);
 }
+
+@media screen and (max-width: 1280px) {
+    .corpo__principais__botoes__ancora {
+        width: 30rem;
+    }
+    .nossa-equipe__parte-baixo2, .nossa-equipe__parte-baixo3{
+        padding: 1rem 10rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 640px) {
+
+}
