@@ -249,11 +249,20 @@ body {
 }
 
 @media screen and (max-width: 1280px) {
+    * {
+        font-size: 12px;
+    }
+    .corpo__principais__destaque {
+        font-size: 6rem;
+    }
+    .imagem {
+        width: 14rem;
+    }
     .corpo__principais__botoes__ancora {
-        width: 30rem;
+        width: 42rem;
     }
     .nossa-equipe__parte-baixo2, .nossa-equipe__parte-baixo3{
-        padding: 1rem 10rem;
+        padding: 1rem 13rem;
     }
 }
 
