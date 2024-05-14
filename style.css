@@ -266,10 +266,294 @@ body {
     }
 }
 
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 1024px) {
+    .corpo__principais__botoes__ancora {
+        width: 33rem;
+    }
+    .nossa-equipe__parte-baixo2, .nossa-equipe__parte-baixo3{
+        padding: 1rem 2rem;
+    }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 834px) {
+    * {
+        font-size: 7px;
+    }
+    .corpo__principais__destaque {
+        font-size: 6rem;
+    }
+    .imagem {
+        width: 14rem;
+    }
+    .imagem-cabecalho {
+        width: 7rem;
+    }
+    .corpo__principais__botoes__ancora {
+        width: 42rem;
+    }
+    .nossa-equipe__parte-baixo2, .nossa-equipe__parte-baixo3{
+        padding: 1rem 13rem;
+    }
+}
 
+@media screen and (max-width: 768px) {
+    * {
+        font-size: 7px;
+    }
+    .corpo__principais__destaque {
+        font-size: 6rem;
+    }
+    .imagem {
+        width: 14rem;
+    }
+    .imagem-cabecalho {
+        width: 7rem;
+    }
+    .corpo__principais__botoes__ancora {
+        width: 42rem;
+    }
+    .nossa-equipe__parte-baixo2, .nossa-equipe__parte-baixo3{
+        padding: 1rem 13rem;
+    }
+}
+
+
+@media screen and (max-width: 688px) {
+    * {
+        font-size: 6px;
+    }
+    .corpo__principais__destaque {
+        font-size: 6rem;
+    }
+    .imagem {
+        width: 14rem;
+    }
+    .imagem-cabecalho {
+        width: 7rem;
+    }
+    .corpo__principais__botoes__ancora {
+        width: 37rem;
+    }
+    .nossa-equipe__parte-baixo2, .nossa-equipe__parte-baixo3{
+        padding: 1rem 13rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    * {
+        font-size: 4.5px;
+    }
+    .corpo__principais__destaque {
+        font-size: 7rem;
+    }
+    .imagem {
+        width: 14rem;
+    }
+    .imagem-cabecalho {
+        width: 7rem;
+    }
+    .corpo__principais__botoes__ancora {
+        width: 46rem;
+    }
+    .nossa-equipe__parte-baixo2, .nossa-equipe__parte-baixo3{
+        padding: 1rem 20rem;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    * {
+        font-size: 6px;
+    }
+    .corpo__principais__destaque {
+        font-size: 6rem;
+    }
+    .imagem {
+        width: 14rem;
+    }
+    .imagem-cabecalho {
+        width: 7rem;
+    }
+    .corpo__principais__botoes__ancora {
+        width: 42rem;
+    }
+    .nossa-equipe__parte-baixo2, .nossa-equipe__parte-baixo3{
+        padding: 1rem 13rem;
+    }
+    .corpo__principais__botoes {
+        flex-direction: column;
+    }
+    .nossa-equipe__parte-baixo2 {
+        flex-direction: column;
+    }
+    .nossa-equipe__parte-baixo3 {
+        flex-direction: column;
+    }
+    .nossa-equipe__frase__titulo {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    * {
+        font-size: 6px;
+    }
+    .corpo__principais__destaque {
+        font-size: 6rem;
+    }
+    .imagem {
+        width: 14rem;
+    }
+    .imagem-cabecalho {
+        width: 7rem;
+    }
+    .corpo__principais__botoes__ancora {
+        width: 42rem;
+    }
+    .nossa-equipe__parte-baixo2, .nossa-equipe__parte-baixo3{
+        padding: 1rem 13rem;
+    }
+    .corpo__principais__botoes {
+        flex-direction: column;
+    }
+    .nossa-equipe__parte-baixo2 {
+        flex-direction: column;
+    }
+    .nossa-equipe__parte-baixo3 {
+        flex-direction: column;
+    }
+    .nossa-equipe__frase__titulo {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    * {
+        font-size: 6px;
+    }
+    .corpo__principais__destaque {
+        font-size: 6rem;
+    }
+    .imagem {
+        width: 14rem;
+    }
+    .imagem-cabecalho {
+        width: 7rem;
+    }
+    .corpo__principais__botoes__ancora {
+        width: 42rem;
+    }
+    .nossa-equipe__parte-baixo2, .nossa-equipe__parte-baixo3{
+        padding: 1rem 13rem;
+    }
+    .corpo__principais__botoes {
+        flex-direction: column;
+    }
+    .nossa-equipe__parte-baixo2 {
+        flex-direction: column;
+    }
+    .nossa-equipe__parte-baixo3 {
+        flex-direction: column;
+    }
+    .nossa-equipe__frase__titulo {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    * {
+        font-size: 5px;
+    }
+    .corpo__principais__destaque {
+        font-size: 6rem;
+    }
+    .imagem {
+        width: 14rem;
+    }
+    .imagem-cabecalho {
+        width: 7rem;
+    }
+    .corpo__principais__botoes__ancora {
+        width: 42rem;
+    }
+    .nossa-equipe__parte-baixo2, .nossa-equipe__parte-baixo3{
+        padding: 1rem 13rem;
+    }
+    .corpo__principais__botoes {
+        flex-direction: column;
+    }
+    .nossa-equipe__parte-baixo2 {
+        flex-direction: column;
+    }
+    .nossa-equipe__parte-baixo3 {
+        flex-direction: column;
+    }
+    .nossa-equipe__frase__titulo {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    * {
+        font-size: 5px;
+    }
+    .corpo__principais__destaque {
+        font-size: 6rem;
+    }
+    .imagem {
+        width: 14rem;
+    }
+    .imagem-cabecalho {
+        width: 7rem;
+    }
+    .corpo__principais__botoes__ancora {
+        width: 42rem;
+    }
+    .nossa-equipe__parte-baixo2, .nossa-equipe__parte-baixo3{
+        padding: 1rem 13rem;
+    }
+    .corpo__principais__botoes {
+        flex-direction: column;
+    }
+    .nossa-equipe__parte-baixo2 {
+        flex-direction: column;
+    }
+    .nossa-equipe__parte-baixo3 {
+        flex-direction: column;
+    }
+    .nossa-equipe__frase__titulo {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 240px) {
+    * {
+        font-size: 4px;
+    }
+    .corpo__principais__destaque {
+        font-size: 6rem;
+    }
+    .imagem {
+        width: 14rem;
+    }
+    .imagem-cabecalho {
+        width: 7rem;
+    }
+    .corpo__principais__botoes__ancora {
+        width: 42rem;
+    }
+    .nossa-equipe__parte-baixo2, .nossa-equipe__parte-baixo3{
+        padding: 1rem 13rem;
+    }
+    .corpo__principais__botoes {
+        flex-direction: column;
+    }
+    .nossa-equipe__parte-baixo2 {
+        flex-direction: column;
+    }
+    .nossa-equipe__parte-baixo3 {
+        flex-direction: column;
+    }
+    .nossa-equipe__frase__titulo {
+        font-size: 12px;
+    }
 }
