@@ -2,8 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Jomolhari&family=Krona+One&family=Montserrat:ital,wght@0,700;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-@import url('./src/style/maonamassa.css');
+@import url('./src/style/biblioteca.css');
 @import url('./src/style/calcsono.css');
+@import url('./src/style/desendigital.css');
+@import url('./src/style/higienesono.css');
+@import url('./src/style/maonamassa.css');
+@import url('./src/style/terrapiarelaxamento.css');
 
 :root {
     --cor-cabecape: #05080F;
@@ -393,7 +397,7 @@ body {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
     * {
         font-size: 6px;
     }
