@@ -364,40 +364,7 @@ body {
     }
 }
 
-@media screen and (max-width: 412px) {
-    * {
-        font-size: 6px;
-    }
-    .corpo__principais__destaque {
-        font-size: 6rem;
-    }
-    .imagem {
-        width: 14rem;
-    }
-    .imagem-cabecalho {
-        width: 7rem;
-    }
-    .corpo__principais__botoes__ancora {
-        width: 42rem;
-    }
-    .nossa-equipe__parte-baixo2, .nossa-equipe__parte-baixo3{
-        padding: 1rem 13rem;
-    }
-    .corpo__principais__botoes {
-        flex-direction: column;
-    }
-    .nossa-equipe__parte-baixo2 {
-        flex-direction: column;
-    }
-    .nossa-equipe__parte-baixo3 {
-        flex-direction: column;
-    }
-    .nossa-equipe__frase__titulo {
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 414px) {
     * {
         font-size: 6px;
     }
