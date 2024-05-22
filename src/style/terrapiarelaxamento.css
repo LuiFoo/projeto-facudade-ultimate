@@ -1,0 +1,11 @@
+.main__terrapiarelaxamento {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-backprinc);
+}
+
+.main__terrapiarelaxamento__video {
+    margin: 90px 0 20px 0;
+    width: 77.68rem;
+    height: 43.75rem;
+}
