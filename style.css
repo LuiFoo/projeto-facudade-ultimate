@@ -50,15 +50,13 @@ body {
     display: block;
     position: absolute;
     top: 100%;
-}
-
-.cabecalho__links__texto {
     font-family: var(--fonte-secundaria);
     font-size: 1.2rem;
     color: var(--cor-textdestcadoequipe);
     font-weight: 600;
     text-decoration: none;
 }
+
 
 .cabecalho__links__texto:hover {
     color: var(--cor-backsecundaria);
