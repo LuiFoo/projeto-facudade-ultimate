@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+.main__mmassa__text {
+    text-align: center;
+    margin: 4.81rem;
+}
+
 .main__mmassa__text__fon {
     font-size: 4rem;
     font-family: var(--fonte-secundaria);
