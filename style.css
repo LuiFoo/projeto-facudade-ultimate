@@ -42,6 +42,27 @@ body {
     padding: 0.5em 0 0 0;
 }
 
+.cabecalho__links__texto {
+    background-color: var(--cor-cabecape);
+    padding: 1em 2em;
+    border-radius: 0  0  1rem 1rem;
+    display: block;
+    position: absolute;
+    top: 100%;
+}
+
+.cabecalho__links__texto {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.2rem;
+    color: var(--cor-textdestcadoequipe);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cabecalho__links__texto:hover {
+    color: var(--cor-backsecundaria);
+}
+
 .corpo {
     display: flex;
     flex-direction: column;

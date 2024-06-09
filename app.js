@@ -57,7 +57,6 @@ var numero = []
 function projeto1(number, text, text2) {
     numero = []
     numero.push(number)
-    alert(number)
     document.getElementById(`titulo-${number}`).innerHTML = text;
     document.getElementById(`paragrafo-${number}`).innerHTML = text2;
 
@@ -66,8 +65,14 @@ function projeto1(number, text, text2) {
 }
 
 function concluidos(number) {
-    document.getElementById(`titulo-${numero[0]}`).innerHTML = 'Cozinhar';
-    document.getElementById(`paragrafo-${numero[0]}`).innerHTML = 'A arte, a ciência e o ofício de usar o calor para preparar alimentos para consumo.';
+    if (numero[0] == 1) {
+        document.getElementById(`titulo-${numero[0]}`).innerHTML = 'Cozinhar';
+        document.getElementById(`paragrafo-${numero[0]}`).innerHTML = 'A arte, a ciência e o ofício de usar o calor para preparar alimentos para consumo.';
+    } else if (numero[0] == 2) {
+        document.getElementById(`titulo-${numero[0]}`).innerHTML = 'Meditação';
+        document.getElementById(`paragrafo-${numero[0]}`).innerHTML = 'Uma prática onde um indivíduo usa uma técnica para alcançar um estado mentalmente claro e emocionalmente calmo.';
+    }
+
     document.getElementById(`botao-${numero[0]}`).onclick = projeto1;
     document.getElementById(`botao-${numero[0]}`).innerHTML = 'Elaborar';
     
