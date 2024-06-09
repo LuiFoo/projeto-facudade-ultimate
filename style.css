@@ -47,7 +47,6 @@ body {
     background-color: var(--cor-cabecape);
     padding: 1em 2em;
     border-radius: 0  0  1rem 1rem;
-    display: block;
     position: absolute;
     top: 100%;
     font-family: var(--fonte-secundaria);
