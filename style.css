@@ -34,26 +34,12 @@ body {
 
 .cabecalho {
     background-color: var(--cor-cabecape);
-    height: 4.375rem;
     display: flex;
     position: fixed;
     top: 0;
     width: 100%;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.cabecalho__links {
-    display: flex;
-    gap: 2.562rem
-}
-
-.cabecalho__links__texto {
-    font-family: var(--fonte-primaria);
-    font-weight: 700;
-    font-size: 1.25rem;
-    color: var(--cor-clara-fontes);
-    text-decoration: none;
+    justify-content: center;
+    padding: 0.5em 0 0 0;
 }
 
 .corpo {
