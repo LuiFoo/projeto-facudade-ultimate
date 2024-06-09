@@ -1,0 +1,48 @@
+.main__higiene__sono {
+    background-color: var(--cor-backprinc);
+    padding: 0 0 100px 0;
+}
+
+.higiene__sono__div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 0 0 20%;
+}
+
+.higiene__sono__div__section {
+    width: 70%;
+}
+
+.higiene__sono__div__section2 {
+    width: 70%;
+}
+
+.higiene__sono__div__section2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.higiene__sono__div__section__titulo,
+.higiene__sono__div__section__paragrafo {
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+    font-size: 24px;
+    color:aliceblue
+}
+
+.section__paragrafo {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.destaq__section {
+    color: var(--cor-textdestaque);
+    font-weight: 400;
+    margin: 2rem 0;
+}
+
+
+.espaca {
+    margin: 9rem 0 3rem 0;
+}
