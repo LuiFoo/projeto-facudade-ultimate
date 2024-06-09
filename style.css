@@ -36,6 +36,7 @@ body {
     background-color: var(--cor-cabecape);
     display: flex;
     position: fixed;
+    height: 4.3rem;
     top: 0;
     width: 100%;
     justify-content: center;

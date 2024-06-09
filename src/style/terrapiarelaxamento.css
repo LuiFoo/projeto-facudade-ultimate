@@ -1,4 +1,18 @@
 .main__terrapiarelaxamento {
+    margin: 4.7rem 0 0 0;
     height: 100vh;
     background-color: var(--cor-backprinc);
+}
+
+.main__terrapiarelaxamento {
+    display: flex;
+    justify-content: center;
+}
+
+.quadrado__terrapeutas {
+    margin: 5%;
+    display: flex;
+    width: 50%;
+    height: 50%;
+    background-color: var(--cor-botoesfundo);
 }
