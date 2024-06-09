@@ -1,7 +1,10 @@
-.main__mmassa__text {
-    text-align: center;
-    margin: 4.81rem;
-    width: 1191px;
+.main__mmassa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    background-color: var(--cor-backprinc);
+    box-sizing: border-box;
 }
 
 .main__mmassa__text__fon {
