@@ -17,7 +17,7 @@
     --cor-backsecundaria: #2F394A;
     --cor-botoesfundo: #064469;
     --cor-botoes: #072d44;
-    --cor-textdestcadoequipe: #d8d6d6;
+    --cor-textdestcadoequipe: #ebebeb;
 
     --fonte-primaria: "Inter", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
@@ -81,6 +81,11 @@ body {
 
 .corpo__principais__destaque {
     color: var(--cor-textdestaque);
+}
+
+.corpo__principais__destaque2 {
+    color: var(--cor-textdestaque);
+    font-size: 3.25rem;
 }
 
 .corpo__principais__textoprincipal__titulo {
