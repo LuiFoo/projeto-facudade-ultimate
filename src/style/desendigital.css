@@ -1,0 +1,14 @@
+.main__terrapiarelaxamento__de {
+    background-color: var(--cor-backprinc);
+}
+
+.main__terrapiarelaxamento__desec {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding: 150px 0 20px 0;
+}
+
+.main__terrapiarelaxamento__desec__imagem {
+    width: 40rem;
+}

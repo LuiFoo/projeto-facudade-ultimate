@@ -10,9 +10,14 @@
 }
 
 .quadrado__terrapeutas {
-    margin: 5%;
+    margin: 90px 0;
     display: flex;
-    width: 50%;
-    height: 50%;
+    width: 100px;
+    height: 100px;
     background-color: var(--cor-botoesfundo);
+}
+
+.quadrado__terrapeutas__imagem {
+    width: 50px;
+    height: 50px;
 }
