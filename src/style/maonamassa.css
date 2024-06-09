@@ -95,25 +95,3 @@
     color: var(--cor-clara-fontes);
     border-radius: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 414px) {
-    .main__mmassa {
-        height: 100vh;
-    }
-    .main__mmassa__painel {
-        width: 80%;
-    }
-    .main__mmassa__text__fon {
-        font-size: 2.3em;
-    }
-
-}
