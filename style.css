@@ -228,6 +228,11 @@ body {
 
 .rodape__logoinstagram {
     width: 2rem;
+    padding: 0.5rem;
+}
+
+.rodape__logoinstagram:hover {
+    background-color: #1d1e1f;
 }
 
 .rodape__faixasapp {
