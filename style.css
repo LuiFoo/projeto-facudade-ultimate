@@ -187,6 +187,12 @@ body {
     border-radius: 20%;
 }
 
+.rostos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .nossa-equipe__parte-baixo2 {
     margin: 6.25rem 0;
     display: flex;
@@ -415,11 +421,23 @@ body {
     .corpo__principais__botoes {
         flex-direction: column;
     }
+    .rostos {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nossa-equipe__parte-baixo1 {
+        margin: 20% 0 0 20%;
+    }
     .nossa-equipe__parte-baixo2 {
         flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
     }
     .nossa-equipe__parte-baixo3 {
         flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
     }
     .nossa-equipe__frase__titulo {
         font-size: 20px;
@@ -448,11 +466,23 @@ body {
     .corpo__principais__botoes {
         flex-direction: column;
     }
+    .rostos {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nossa-equipe__parte-baixo1 {
+        margin: 20% 0 0 20%;
+    }
     .nossa-equipe__parte-baixo2 {
         flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
     }
     .nossa-equipe__parte-baixo3 {
         flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
     }
     .nossa-equipe__frase__titulo {
         font-size: 20px;
@@ -481,11 +511,23 @@ body {
     .corpo__principais__botoes {
         flex-direction: column;
     }
+    .rostos {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nossa-equipe__parte-baixo1 {
+        margin: 20% 0 0 20%;
+    }
     .nossa-equipe__parte-baixo2 {
         flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
     }
     .nossa-equipe__parte-baixo3 {
         flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
     }
     .nossa-equipe__frase__titulo {
         font-size: 20px;
@@ -514,11 +556,23 @@ body {
     .corpo__principais__botoes {
         flex-direction: column;
     }
+    .rostos {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nossa-equipe__parte-baixo1 {
+        margin: 20% 0 0 20%;
+    }
     .nossa-equipe__parte-baixo2 {
         flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
     }
     .nossa-equipe__parte-baixo3 {
         flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
     }
     .nossa-equipe__frase__titulo {
         font-size: 15px;
@@ -547,11 +601,23 @@ body {
     .corpo__principais__botoes {
         flex-direction: column;
     }
+    .rostos {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nossa-equipe__parte-baixo1 {
+        margin: 20% 0 0 20%;
+    }
     .nossa-equipe__parte-baixo2 {
         flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
     }
     .nossa-equipe__parte-baixo3 {
         flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
     }
     .nossa-equipe__frase__titulo {
         font-size: 12px;

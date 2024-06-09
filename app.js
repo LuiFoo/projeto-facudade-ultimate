@@ -56,16 +56,7 @@ var numero = []
 
 function projeto1(number, text, text2) {
     numero = []
-    numero.push(number)
-    if (numero[0] == 1) {
-        document.getElementById(`titulo-2`).innerHTML = 'Meditação';
-        document.getElementById(`botao-2`).innerHTML = 'Elaborar';
-        document.getElementById(`paragrafo-2`).innerHTML = 'Uma prática onde um indivíduo usa uma técnica para alcançar um estado mentalmente claro e emocionalmente calmo.';
-    } else if (numero[0] == 2) {
-        document.getElementById(`titulo-1`).innerHTML = 'Cozinhar';
-        document.getElementById(`botao-1`).innerHTML = 'Elaborar';
-        document.getElementById(`paragrafo-1`).innerHTML = 'A arte, a ciência e o ofício de usar o calor para preparar alimentos para consumo.';
-    }
+    numero.push(number);
     document.getElementById(`titulo-${number}`).innerHTML = text;
     document.getElementById(`paragrafo-${number}`).innerHTML = text2;
 
