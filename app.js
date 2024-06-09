@@ -50,3 +50,49 @@ function funconfetti() {
     start();
     stop();
 }
+
+var numero = []
+
+
+function projeto1(number, text, text2) {
+    numero = []
+    numero.push(number)
+    alert(number)
+    document.getElementById(`titulo-${number}`).innerHTML = text;
+    document.getElementById(`paragrafo-${number}`).innerHTML = text2;
+
+    document.getElementById(`botao-${number}`).innerHTML = 'Concluir',
+    document.getElementById(`botao-${number}`).onclick = concluidos;
+}
+
+function concluidos(number) {
+    document.getElementById(`titulo-${numero[0]}`).innerHTML = 'Cozinhar';
+    document.getElementById(`paragrafo-${numero[0]}`).innerHTML = 'A arte, a ciência e o ofício de usar o calor para preparar alimentos para consumo.';
+    document.getElementById(`botao-${numero[0]}`).onclick = projeto1;
+    document.getElementById(`botao-${numero[0]}`).innerHTML = 'Elaborar';
+    
+    // start
+    const start = () => {
+        setTimeout(function() {
+            confetti.start()
+        }, 1); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+    };
+
+    //  Stop
+    const stop = () => {
+        setTimeout(function() {
+            confetti.stop()
+        }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+    };
+
+    start();
+    stop();
+
+    const restart = () => {
+        setTimeout(function() {
+            location.reload()
+        }, 6000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+    };
+
+    restart()
+}

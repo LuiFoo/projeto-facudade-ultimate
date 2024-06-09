@@ -4,6 +4,7 @@
     align-items: center;
     padding: 4rem;
     background-color: var(--cor-backprinc);
+    box-sizing: border-box;
 }
 
 .main__mmassa__text {
@@ -13,18 +14,19 @@
 }
 
 .main__mmassa__text__fon {
-    font-size: 64px;
+    font-size: 4rem;
     font-family: var(--fonte-secundaria);
     font-weight: 700;
     color: var(--cor-clara-fontes);
 }
+
 
 .main__mmassa__painel {
     padding: 20px;
     display: flex;
     text-align: center;
     flex-direction: column;
-    width: 809px;
+    width: 60%;
     height: auto;
     background-color: var(--cor-botoesfundo);
     border-style: dashed ;
@@ -48,11 +50,17 @@
 
 .main__mmassa__painel__botoes {
     display: flex;
+    text-align: left;
     flex-direction: column;
     gap: 1rem;
     background-color: var(--cor-botoes);
     border-radius: 20px;
     padding: 2rem;
+}
+
+.corpo__principais__destaquea {
+    font-size: 4rem;
+    color: var(--cor-textdestaque);
 }
 
 .main__mmassa__painel__botoes__paragrafo {
@@ -86,4 +94,26 @@
     background-color: #35393A;
     color: var(--cor-clara-fontes);
     border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 414px) {
+    .main__mmassa {
+        height: 100vh;
+    }
+    .main__mmassa__painel {
+        width: 80%;
+    }
+    .main__mmassa__text__fon {
+        font-size: 2.3em;
+    }
+
 }

@@ -219,19 +219,38 @@ body {
 }
 
 .rodape {
-    background-color: var(--cor-cabecape);
-    height: 4.37rem;
     display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+    background-color: var(--cor-cabecape);
+    padding: 5em 3em;
 }
 
 .rodape__texto {
-    font-family: var(--fonte-primaria);
-    font-weight: 500;
-    font-size: 1.12rem;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 2.3rem;
     color: var(--cor-clara-fontes);
+}
+
+.rodape__textos2 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: var(--cor-clara-fontes);
+}
+
+.rodape__logoinstagram {
+    width: 2rem;
+}
+
+.rodape__faixasapp {
+    width: 15rem;
+}
+
+.rodape__section {
+    display: flex;
+    gap: 1em;
 }
 
 @media screen and (max-width: 1889px) {
