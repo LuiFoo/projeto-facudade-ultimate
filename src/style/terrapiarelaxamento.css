@@ -1,23 +1,58 @@
 .main__terrapiarelaxamento {
-    margin: 4.7rem 0 0 0;
-    height: 100vh;
     background-color: var(--cor-backprinc);
+    height: 100vh;
+    padding: 200px 0;
 }
 
-.main__terrapiarelaxamento {
+.main__terrapiarelaxamento__a__imagem {
+    width: 200px;
+}
+
+.main__terrapiarelaxamento__div {
     display: flex;
     justify-content: center;
 }
 
-.quadrado__terrapeutas {
-    margin: 90px 0;
+.main__terrapiarelaxamento__div__section {
     display: flex;
-    width: 100px;
-    height: 100px;
-    background-color: var(--cor-botoesfundo);
+    gap: 2em;
+    background-color: var(--cor-botoes);
+    border-radius: 2em;
+    padding: 1em 2em;
+    text-decoration: none;
 }
 
-.quadrado__terrapeutas__imagem {
-    width: 50px;
-    height: 50px;
+.main__terrapiarelaxamento__div__section__section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 30rem;
+}
+
+.imagem__estrela {
+    width: 20px;
+}
+
+.section__estrela {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.fontes__corpo {
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    color: var(--cor-clara-fontes);
+}
+
+.fonte__titulo {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.main__terrapiarelaxamento__div__section__ {
+    display: flex;
+    margin: 4em 0;
+    justify-content: center;
 }

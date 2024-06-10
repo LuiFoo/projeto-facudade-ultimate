@@ -1,14 +1,35 @@
 .main__terrapiarelaxamento__de {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--cor-backprinc);
 }
 
 .main__terrapiarelaxamento__desec {
     display: flex;
+    align-items: center;
     justify-content: center;
-    width: 60%;
-    padding: 150px 0 20px 0;
+    padding: 10rem 0 5rem 0;
 }
 
 .main__terrapiarelaxamento__desec__imagem {
-    width: 40rem;
+    width: 25rem;
+    margin: 0 2em 0 0;
+}
+
+.main__terrapiarelaxamento__de__div {
+    margin: 0 0 0 2em;
+    text-align: center;
+}
+
+.main__terrapiarelaxamento__desec__imagem__seta {
+    width: 20rem;
+}
+
+.main__terrapiarelaxamento__de__div__paragrafo {
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    font-size: 1.5em;
+    color: var(--cor-clara-fontes);
+    margin: 1em 0 0 0;
 }
